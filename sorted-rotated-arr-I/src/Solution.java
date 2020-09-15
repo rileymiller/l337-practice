@@ -35,15 +35,15 @@ public class Solution {
     
     
     public static void main(String args[]) {
-//    	int[] nums = { 4,5,6,7,0,1,2 };
-//    	Solution s = new Solution();
-//    	
-//    	System.out.println(s.search(nums, 3));
+    	int[] nums = { 4,5,6,7,0,1,2 };
+    	Solution s = new Solution();
     	
-//    	int[] nums1 = { 1 };
-//    	Solution s1 = new Solution();
-//    	
-//    	System.out.println(s1.search(nums1, 1));
+    	System.out.println(s.search(nums, 3));
+    	
+    	int[] nums1 = { 1 };
+    	Solution s1 = new Solution();
+    	
+    	System.out.println(s1.search(nums1, 1));
     	
     	int[] nums2 = { 3, 1 };
     	Solution s2 = new Solution();
