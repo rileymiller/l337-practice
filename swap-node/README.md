@@ -63,3 +63,6 @@ second.next = first;
 
 Then, the traversal node proceeds to iterate through the linked list by setting itself to be the next new second node in the pair so that it can manipulate the next pair in the list.
 
+
+### Complexity
+**O(n)**
