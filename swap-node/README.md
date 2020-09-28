@@ -8,6 +8,8 @@ You may not modify the values in the list's nodes, only nodes itself may be chan
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 ```
 
+(Leet Code link)[https://leetcode.com/problems/swap-nodes-in-pairs/]
+
 Took me a little on this one, I was struggling to understand how to modify the linked list and return the modified head. What I discovered was that you need another node that you can use as a reference node, and you also need a node that traverses through the list.
 
 For example, to set this up, the following code was used to have a reference node and a traversal node:
