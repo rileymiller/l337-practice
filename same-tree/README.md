@@ -81,4 +81,4 @@ class Solution {
 ```
 
 ## Big-O Complexity
-TBA
+O(log n)
