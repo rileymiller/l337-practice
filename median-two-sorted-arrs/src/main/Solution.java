@@ -36,7 +36,7 @@ public class Solution {
 
         if(merged.length % 2 == 0) {
             int top = nm / 2;
-            int bot = (nm / 2) - 1;
+            int bot = (nm / 2) - 1; // (nm / 2) - 1
 
             return (merged[top] + merged[bot]) / 2.0;
         } else {

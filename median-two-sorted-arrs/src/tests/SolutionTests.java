@@ -13,7 +13,7 @@ public class SolutionTests {
     @Test
     void MedianTestSequential() {
         Solution sol = new Solution();
-
+    
         assertEquals(2.5,sol.findMedianSortedArrays(new int[]{1,2}, new int[]{3,4}));
     }
 
